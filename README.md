@@ -38,7 +38,7 @@ DeviceFileEvents
 | order by Timestamp desc
 | project Timestamp, DeviceName, ActionType, FileName, FolderPath, SHA256, Account = InitiatingProcessAccountName
 ```
-<img width="1212" alt="image" src="https://github.com/user-attachments/assets/71402e84-8767-44f8-908c-1805be31122d">
+<img width="1450" height="410" alt="image" src="https://github.com/user-attachments/assets/79ea54d7-45de-4c21-83e1-43666417de66" />
 
 ---
 
@@ -55,7 +55,7 @@ DeviceProcessEvents
 | project Timestamp, DeviceName, AccountName, ActionType, FileName, FolderPath, SHA256, ProcessCommandLine
 
 ```
-<img width="1212" alt="image" src="https://github.com/user-attachments/assets/b07ac4b4-9cb3-4834-8fac-9f5f29709d78">
+<img width="1472" height="191" alt="image" src="https://github.com/user-attachments/assets/1b386e74-129d-4e99-ad0a-3e618b44d17b" />
 
 ---
 
@@ -73,7 +73,7 @@ DeviceProcessEvents
 | order by Timestamp desc
 
 ```
-<img width="1212" alt="image" src="https://github.com/user-attachments/assets/b13707ae-8c2d-4081-a381-2b521d3a0d8f">
+<img width="1465" height="442" alt="image" src="https://github.com/user-attachments/assets/64ca1330-26ba-4fd8-9ecd-a0caa5198fab" />
 
 ---
 
@@ -93,7 +93,7 @@ DeviceNetworkEvents
 | order by Timestamp desc
 
 ```
-<img width="1212" alt="image" src="https://github.com/user-attachments/assets/87a02b5b-7d12-4f53-9255-f5e750d0e3cb">
+<img width="1489" height="386" alt="image" src="https://github.com/user-attachments/assets/98ba0372-f4b0-4db0-bb42-214f7fea6ce7" />
 
 ---
 
