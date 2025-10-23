@@ -50,7 +50,6 @@ DeviceFileEvents
 | project Timestamp, DeviceName, ActionType, FileName, FolderPath, SHA256, Account = InitiatingProcessAccountName
 
 // TOR Browser being silently installed
-// Take note of two spaces before the /S (I don't know why)
 DeviceProcessEvents
 | where ProcessCommandLine contains "tor-browser-windows-x86_64-portable-14.5.8.exe /S"
 | project Timestamp, DeviceName, ActionType, FileName, ProcessCommandLine
@@ -80,7 +79,7 @@ DeviceNetworkEvents
 // User shopping list was created and, changed, or deleted
 DeviceFileEvents
 | where DeviceName == "threat-hunt-bra"
-| where FileName contains "shopping-list.txt"
+| where FileName contains "tor-shopping-list.txt"
 ```
 
 ---
